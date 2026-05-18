@@ -12,6 +12,10 @@
 					event.preventDefault()
 					event.stopPropagation()
 				}
+				else {
+					event.preventDefault() 
+					window.location.href = "index.html"; 
+				}
 
 				form.classList.add('was-validated')
 			}, false)
